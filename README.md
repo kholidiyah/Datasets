@@ -21,7 +21,7 @@ The following steps explain how to update Accmpeg to use `backports.cached-prope
 ### Step 1: Install backports.cached-property
 Run the following command in the terminal to install `backports.cached-property`:
 ```bash
-pip install backports.cached-property
+pip install cached_property
 ```
 
 ### Step 2: Edit the events.py File
@@ -33,7 +33,7 @@ nano /home/kmh/Downloads/yes/envs/accmpeg/lib/python3.7/site-packages/detectron2
 ### Step 3: Import cached_property
 Add or modify the following line in the `events.py` file:
 ```python
-from backports.cached_property import cached_property
+from cached_property import cached_property
 ```
 
 ### Step 4: Save the Changes
